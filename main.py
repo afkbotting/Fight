@@ -1,35 +1,43 @@
+
 print("Nice U reach the dungeon")
 print( )
 import time
 import os
 import random
+#Ur abillity + ur health
 Insane_juggernaut = 1300;
 attack = 100;
 instadamage = 1000;
 Mega_Jump = 1000
+defeated_mindgames = 10000;
 enermous_explosion = 2200
-#Ur abillity + ur health
+#Infernal_Barbarian stuff
 Infernal_Barbarian = 1100;
 Infernal_Attack = 84;
 Infernal_Spin = 88
-#Infernal_Barbarian stuff
-health_pot = 0;
-titan_serum = 0;
+#amongus stuff
 titan_amongus = 10000;
 SUSY_ATTACK = 1600;
 Heart_attack = 900;
 Poison = 999;
 Sending_little_impostorkillers = 800;
-#amongus stuff
-Revive = 0;
-healing_potion = 0;
-#revive stuff
+#nebula stuff
 Nebula_corps = 20000;
 Nebula_ball = 2300;
 Super_charged_nebula_ball = 2400;
 Nebula_exploison = 2300;
 Nebula_Superexplosion = 2350;
-
+#babstuff
+Bab = 0;
+#misc
+health_pot = 0;
+titan_serum = 0;
+Mobkiller = 0;
+coins = 0;
+#Galactic killer
+Galactic_killer = 100000;
+mega_ball = 15000;
+Mind_games = 15900;
 
 print("welcome to level one")
 print( )
@@ -61,7 +69,6 @@ elif(situation == 3):
 elif(situation == 4):
   print("Nice u got a really op sword called Infernal rageblade and a healing potion")
   attack += 40
-  healing_potion += 1
   print("Attack =")
   print(attack)
   print( )
@@ -214,7 +221,7 @@ while(Insane_juggernaut > 0 and titan_amongus > 0):
     print(Insane_juggernaut)
     
 os.system('clear')      
-if(Insane_juggernaut < 0):
+if(Insane_juggernaut > 0):
   print("nice u beated it")
 else:
   print("U died rip bozo :skull: Imagine being so close but u died")
@@ -244,7 +251,6 @@ os.system('clear')
 print("1")
 os.system('clear')
 
-situation69 = random.randrange(1,5)
 while(Insane_juggernaut > 0 and Nebula_corps > 0):
   print("1 = attack, 2 = enormous explosion, 3 = megajump, 4 = instadmage")
   choice4 = input("what attack u wanna do?")
@@ -332,4 +338,163 @@ while(Insane_juggernaut > 0 and Nebula_corps > 0):
     print("Your health =")
     print(Insane_juggernaut)
     
+os.system('clear')
+print("Noice U beated him U can start collecting coins but since this is ur first time U got 2000 coins would like to buy something from Bab")
+print( )
+print("U got more health")
+Insane_juggernaut + 50000;
+coins += 2000;
+print()
+print("Hello Traveler")
+print("⠀⣀⣤⡶⠾⠛⠛⠋⠉⠙⠛⠿⠶⣦⣄")
+print("⣠⡾⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣦⡀")
+print("⣼⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⡄")
+print("⢸⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣷")
+print("⢸⡇⠀⠀⠀⠀⠀⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿")
+print("⠘⣿⡀⠀⠀⣰⠟⣭⣿⣽⢷⣴⢟⣽⣯⡙⢷⡀⠀⠀⣸⡇")
+print("⠀⠘⢷⣄⠀⣿⠀⠻⠿⠟⢸⣏⠘⠿⠿⠃⢸⡇⢀⣴⠏⠀")
+print("⠀⣴⣦⡙⣷⣿⣷⣄⣀⣤⣾⢿⣦⣀⣀⣤⡾⣷⢿⣥⣦⡀")
+print("⢸⡯⠀⠹⠿⢇⠌⠉⠋⠉⠁⡀⢉⠙⠛⠉⠸⢿⠟⠁⢸⡇")
+print("⠈⢿⣄⡨⠠⠀⣁⡅⠀⠉⠆⡐⠀⠀⢮⣆⠈⠊⠀⢰⣼⠇")
+print("⠀⠀⠉⠛⠛⠛⣿⣿⣀⣠⡼⢷⣄⣄⣀⣿⠛⠛⠛⠋⠁⠀")
+print("")
+
+while(coins > 0 or Bab < 0):
+  print("Nice U reach Bab Shop what U like to buy")
+  print("1 = The mobkiller - could remove mobs out exists or 2 = More strength 3 = exits")
+  print("Oh forgot about the price The mobkiller is 1k and strength is 2k also")
+  print("")
+  choice5 = input("what want to do")
+  if(choice5 == "1"):
+    Mobkiller += 1;
+    coins -= 1000;
+  if(choice5 == "2"):
+    attack += 30000;
+    enermous_explosion += 30000;
+    Mega_Jump += 30000;
+    instadamage += 30000;
+  if(choice5 == "3"):
+    Bab += 1
+
+print("A boss is spawning at level 2 now")
+print("3")
+time.sleep(1)
+os.system('clear')
+print("2")
+time.sleep(1)
+os.system('clear')
+print("1")
+os.system('clear')
+while(Insane_juggernaut > 0 and Galactic_killer > 0):
+  print("1 = attack, 2 = enormous explosion, 3 = megajump, 4 = instadmage 5 = use mobkiller")
+  choice6 = input("what would u like to do")
+  if(choice6 == "1"):
+    Galactic_killer -= attack;
+    print("his health =")
+    print(Galactic_killer)
+    situationpee = random.randrange(1,3)
+    if(situationpee == 1):
+      Insane_juggernaut -= mega_ball;
+      print("He used mega ball to u")
+    elif(situationpee == 2):
+      situationmindgames = random.randrange(1,3)
+    if(situationmindgames == 1):
+      mindgames = input("who is attacking u, A = galactic killer, B Ur self")
+      if(mindgames == "A"):
+        Galactic_killer -= defeated_mindgames;
+        print("His health =")
+        print(Galactic_killer)
+        print("U beat his tricks")
+      elif(Mind_games == "B"):
+        Insane_juggernaut -= 15900;
+        print("U chose the wrong choice")
+      elif(mindgames != "A" and mindgames != "B"):
+        Insane_juggernaut -= 17000;
+        print("U have Not choose a choice so u lose more health")
+    print("ur health =")
+    print(Insane_juggernaut)
+  elif(choice6 == "2"):
+    Galactic_killer -= enermous_explosion;
+    print("his health =")
+    print(Galactic_killer)
+    situationpee = random.randrange(1,3)
+    if(situationpee == 1):
+      Insane_juggernaut -= mega_ball;
+      print("He used mega ball to u")
+    elif(situationpee == 2):
+      situationmindgames = random.randrange(1,3)
+    if(situationmindgames == 1):
+      mindgames = input("who is attacking u, A = galactic killer, B Ur self")
+      if(mindgames == "A"):
+        Galactic_killer -= defeated_mindgames;
+        print("His health =")
+        print(Galactic_killer)
+        print("U beat his tricks")
+      elif(Mind_games == "B"):
+        Insane_juggernaut -= 15900;
+        print("U chose the wrong choice")
+      elif(mindgames != "A" and mindgames != "B"):
+        Insane_juggernaut -= 17000;
+        print("U have Not choose a choice so u lose more health")
+    print("ur health =")
+    print(Insane_juggernaut)
+  elif(choice6 == "3"):
+    Galactic_killer -= Mega_Jump;
+    print("his health =")
+    print(Galactic_killer)
+    situationpee = random.randrange(1,3)
+    if(situationpee == 1):
+      Insane_juggernaut -= mega_ball;
+      print("He used mega ball to u")
+    elif(situationpee == 2):
+      situationmindgames = random.randrange(1,3)
+    if(situationmindgames == 1):
+      mindgames = input("who is attacking u, A = galactic killer, B Ur self")
+      if(mindgames == "A"):
+        Galactic_killer -= defeated_mindgames;
+        print("His health =")
+        print(Galactic_killer)
+        print("U beat his tricks")
+      elif(Mind_games == "B"):
+        Insane_juggernaut -= 15900;
+        print("U chose the wrong choice")
+      elif(mindgames != "A" and mindgames != "B"):
+        Insane_juggernaut -= 17000;
+        print("U have Not choose a choice so u lose more health")
+    print("ur health =")
+    print(Insane_juggernaut)
+  elif(choice6 == "4"):
+    Galactic_killer -= instadamage;
+    print("his health =")
+    print(Galactic_killer)
+    situationpee = random.randrange(1,3)
+    if(situationpee == 1):
+      Insane_juggernaut -= mega_ball;
+      print("He used mega ball to u")
+    elif(situationpee == 2):
+      situationmindgames = random.randrange(1,3)
+    if(situationmindgames == 1):
+      mindgames = input("who is attacking u, A = galactic killer, B Ur self")
+      if(mindgames == "A"):
+        Galactic_killer -= defeated_mindgames;
+        print("His health =")
+        print(Galactic_killer)
+        print("U beat his tricks")
+      elif(Mind_games == "B"):
+        Insane_juggernaut -= 15900;
+        print("U chose the wrong choice")
+      elif(mindgames != "A" and mindgames != "B"):
+        Insane_juggernaut -= 17000;
+        print("U have Not choose a choice so u lose more health")
+    print("ur health =")
+    print(Insane_juggernaut)
+  elif(choice6 == "5"):
+    if(Mobkiller > 0):
+      Galactic_killer -= Galactic_killer;
+      Mobkiller -= 0;
+      yes = "how many mob kller u have ="
+      print(yes)
+      print(Mobkiller)
+    elif(Mobkiller == 0):
+      print("Sorry U dont have that")
 
